@@ -272,7 +272,7 @@ Assume that the decision is evaluated with the following input variables:
 
 With the above inputs, `Dish` decision table has one matching rule and generates the output value `Stew` that is mapped to the output variable `desiredDish`.
 
-The output result of the `Dish` decision is used as input of the `Beverages` decision. That means that the input expression `desiredDish` of the `Beverages` decision returns the output value `Stew` of the `Dish` decision. In general, a decision can access the results (i.e., the output values) of required decisions by there output name.
+The output result of the `Dish` decision is used as input of the `Beverages` decision. That means that the input expression `desiredDish` of the `Beverages` decision returns the output value `Stew` of the `Dish` decision. In general, a decision can access the results (i.e., the output values) of required decisions by their output name.
 
 As result, the `Beverages` decision has two matching rules and generates the output values `Guiness` and `Water`.
 
